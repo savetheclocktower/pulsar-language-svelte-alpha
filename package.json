@@ -1,11 +1,11 @@
 {
-  "name": "language-svelte-custom",
-  "version": "0.0.0",
+  "name": "pulsar-language-svelte-alpha",
+  "version": "0.0.1",
   "main": "lib/main",
-  "description": "A short description of your package",
+  "description": "A modern Tree-sitter grammar for Svelte",
   "keywords": [
   ],
-  "repository": "https://github.com/atom/language-svelte-custom",
+  "repository": "https://github.com/atom/pulsar-language-svelte-alpha",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0",
