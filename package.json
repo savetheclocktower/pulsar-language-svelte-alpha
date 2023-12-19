@@ -1,0 +1,16 @@
+{
+  "name": "language-svelte-custom",
+  "version": "0.0.0",
+  "main": "lib/main",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "repository": "https://github.com/atom/language-svelte-custom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0",
+    "node": ">=14"
+  },
+  "dependencies": {
+  }
+}

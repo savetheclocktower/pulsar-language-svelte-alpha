@@ -1,0 +1,15 @@
+name: 'Svelte'
+scopeName: 'source.svelte'
+type: 'modern-tree-sitter'
+parser: 'tree-sitter-svelte'
+
+fileTypes: ['svelte']
+
+injectionRegex: '^(svelte|SVELTE)$'
+
+treeSitter:
+  grammar: 'tree-sitter-svelte/tree-sitter-svelte.wasm'
+  highlightsQuery: 'tree-sitter-svelte/highlights.scm'
+  # localsQuery: 'tree-sitter-svelte/locals.scm'
+  foldsQuery: 'tree-sitter-svelte/folds.scm'
+  indentsQuery: 'tree-sitter-svelte/indents.scm'
