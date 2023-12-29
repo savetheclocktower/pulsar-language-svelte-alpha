@@ -1,5 +1,7 @@
-# language-svelte-custom package
+# pulsar-language-svelte-alpha package
 
-A short description of your package.
+An attempt at a modern Svelte language package for Pulsar — uncoupled from the Svelte language server.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+Implements syntax highlighting of `.svelte` files via modern Tree-sitter grammar.
+
+Can inject JavaScript or TypeScript into `script` blocks, and can inject CSS or SCSS into `style` blocks.
